@@ -168,7 +168,7 @@ p {
   margin: 0 auto;
 }
 .padding {
-  padding: 100px 0;
+  padding: 200px 0;
 }
 .line {
   width: 100px;
@@ -361,4 +361,18 @@ h4 {
 .btn-serivce:hover {
   background: var(--secondary-color);
   color: #fff !important;
+}
+
+/* Case */
+.case-section {
+  background: var(--bg-color);
+  position: relative;
+  overflow-x: hidden;
+}
+
+.cases-img-container {
+  position: absolute;
+  right: 28%;
+  transform: translateX(24%);
+  width: 20%;
 }
