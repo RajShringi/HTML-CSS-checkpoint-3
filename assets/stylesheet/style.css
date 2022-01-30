@@ -376,3 +376,28 @@ h4 {
   transform: translateX(24%);
   width: 20%;
 }
+
+/* Testimonial Section */
+.testimonial {
+  text-align: center;
+}
+.testimonial blockquote {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 32px;
+  font-size: 18px;
+  color: var(--primary-text-color);
+}
+.star-container {
+  width: 100px;
+  color: gold;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+.testimonial p {
+  color: var(--primay-color);
+}
+.theme {
+  color: var(--tertiary-text-color);
+  font-size: 14px;
+}
