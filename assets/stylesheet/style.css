@@ -170,6 +170,9 @@ p {
 .padding {
   padding: 200px 0;
 }
+.padding-100 {
+  padding: 100px 0;
+}
 .line {
   width: 100px;
   height: 4px;
@@ -212,7 +215,9 @@ h4 {
 
 /* Custom styles --> Buttons */
 .btn-primary {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: var(--secondary-color);
   color: #fff !important;
   text-transform: uppercase;
@@ -237,6 +242,12 @@ h4 {
 }
 .align-self-stretch {
   align-self: stretch;
+}
+.flex-65 {
+  flex: 0 1 65%;
+}
+.flex-60 {
+  flex: 0 1 60%;
 }
 .flex-48 {
   flex: 0 1 48%;
@@ -409,4 +420,32 @@ h4 {
 }
 .recent time {
   color: var(--tertiary-text-color);
+}
+
+/* Request Call */
+.request-call {
+  background: var(--primay-color);
+}
+.request-call-article > * {
+  color: #fff;
+}
+.request-call form input,
+.request-call form select {
+  border: 0;
+  background: var(--primay-color);
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 16px 24px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.request-call input[type="text"]::placeholder {
+  color: #fff;
+  font-weight: 600;
+}
+input:focus,
+select:focus {
+  outline: none;
 }
