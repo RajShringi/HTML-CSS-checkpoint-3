@@ -231,9 +231,21 @@ h4 {
   margin: 32px 0;
 }
 .btn-primary:hover {
-  background: #fd656ab9;
+  background: #fff;
+  color: var(--secondary-color) !important;
+  outline: 2px solid var(--secondary-color);
 }
 
+.btn-secondary {
+  background: transparent;
+  color: var(--secondary-color) !important;
+  border: 2px solid var(--secondary-color);
+  text-transform: capitalize;
+}
+.btn-secondary:hover {
+  background: var(--secondary-color);
+  color: #fff !important;
+}
 /* Flex */
 .flex {
   display: flex;
@@ -380,16 +392,6 @@ h4 {
 .service-btn-container {
   margin-top: 100px;
   text-align: center;
-}
-.btn-serivce {
-  background: #fff;
-  color: var(--secondary-color) !important;
-  border: 2px solid var(--secondary-color);
-  text-transform: capitalize;
-}
-.btn-serivce:hover {
-  background: var(--secondary-color);
-  color: #fff !important;
 }
 
 /* Case */
