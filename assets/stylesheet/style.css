@@ -205,6 +205,9 @@ h4 {
   font-size: 24px;
   margin: 16px 0;
 }
+.text-color-white {
+  color: #fff;
+}
 /* Custom Styles --> social links */
 .social-links li {
   margin-left: 32px;
@@ -250,6 +253,11 @@ h4 {
 .flex {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 .flex-direction-col {
@@ -508,4 +516,10 @@ select:focus {
 }
 .heart {
   color: var(--secondary-color);
+}
+
+/* #### Blog Page #### */
+.blog-hero {
+  background: url("../media/hero/blog_hero.jpg") no-repeat;
+  background-size: cover;
 }
