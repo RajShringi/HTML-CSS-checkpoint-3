@@ -183,6 +183,9 @@ p {
 .mt-32 {
   margin-top: 32px;
 }
+.mt-0 {
+  margin-top: 0;
+}
 .mb-12 {
   margin-bottom: 12px;
 }
@@ -191,6 +194,9 @@ p {
 }
 .ml-12 {
   margin-left: 12px;
+}
+.ml-32 {
+  margin-left: 32px;
 }
 .line {
   width: 100px;
@@ -201,13 +207,6 @@ p {
 .title {
   text-align: center;
   margin-bottom: 100px;
-}
-.font-weight-500 {
-  font-weight: 500;
-}
-.font-size-13 {
-  font-size: 13px;
-  font-weight: 500;
 }
 .hr-color {
   border-color: rgba(255, 255, 255, 0.4);
@@ -233,6 +232,7 @@ h4 {
 }
 h5 {
   font-size: 18px;
+  color: var(--primary-text-color);
   font-weight: 500;
 }
 h6 {
@@ -246,6 +246,13 @@ h6 {
 }
 .font-14 {
   font-size: 14px;
+}
+.font-weight-500 {
+  font-weight: 500;
+}
+.font-size-13 {
+  font-size: 13px;
+  font-weight: 500;
 }
 /* Custom Styles --> social links */
 .social-links li {
@@ -741,8 +748,23 @@ footer {
   padding-left: 5%;
 }
 
-/* #### Case Page #### */
+/* #### Contact Page #### */
 .contact-hero {
   background: url("../media/hero/contact_hero.jpg");
   background-size: cover;
+}
+.form-container input,
+.form-container textarea {
+  padding: 14px 20px;
+  border: 0;
+  box-shadow: inset 2px 2px 2px rgba(97, 97, 97, 0.196),
+    inset -2px -2px 2px rgba(97, 97, 97, 0.196);
+}
+.form-container button {
+  padding: 14px 20px;
+}
+
+.contact-info i {
+  font-size: 28px;
+  color: var(--tertiary-text-color);
 }
