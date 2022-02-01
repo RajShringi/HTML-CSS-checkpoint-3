@@ -725,7 +725,7 @@ footer {
   margin-right: 8px;
 }
 
-/* #### Blog Page #### */
+/* #### Case Page #### */
 .cases-hero {
   background: url("../media/hero/cases_hero.jpg");
   background-size: cover;
@@ -739,4 +739,10 @@ footer {
   background: rgba(255, 255, 255, 0.9);
   bottom: 0;
   padding-left: 5%;
+}
+
+/* #### Case Page #### */
+.contact-hero {
+  background: url("../media/hero/contact_hero.jpg");
+  background-size: cover;
 }
