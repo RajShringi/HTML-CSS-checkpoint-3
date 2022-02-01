@@ -585,6 +585,9 @@ select:focus {
 }
 
 /* Footer */
+footer {
+  background: var(--bg-color);
+}
 .footer-hero {
   margin-right: 120px;
 }
