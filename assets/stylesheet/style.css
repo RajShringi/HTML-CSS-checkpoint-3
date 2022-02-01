@@ -240,6 +240,10 @@ h6 {
   font-weight: 500;
   color: var(--primary-text-color);
 }
+.z-index-2 {
+  z-index: 2;
+  position: relative;
+}
 /* Custom Styles --> Text */
 .text-color-white {
   color: #fff;
@@ -278,6 +282,7 @@ h6 {
   font-size: 14px !important;
   font-weight: 500;
   margin: 32px 0;
+  cursor: pointer;
 }
 .btn-primary:hover {
   background: #fff;
@@ -488,6 +493,7 @@ h6 {
 /* We-Trusted */
 .we-trusted {
   position: relative;
+  top: 10px;
 }
 .we-trusted-article {
   position: absolute;
@@ -497,6 +503,10 @@ h6 {
   right: 33%;
   bottom: 0;
   transform: translateX(33%);
+}
+.we-trusted-content {
+  position: relative;
+  top: 8px;
 }
 
 /* Services */
@@ -772,12 +782,6 @@ footer {
 .about-hero {
   background: url("../media/hero/about_hero.jpg");
   background-size: cover;
-}
-
-.we-trusted-content {
-  position: relative;
-  top: 8px;
-  z-index: -1;
 }
 
 /* #### Services Page #### */
