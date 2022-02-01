@@ -768,3 +768,14 @@ footer {
   font-size: 28px;
   color: var(--tertiary-text-color);
 }
+/* #### Contact Page #### */
+.about-hero {
+  background: url("../media/hero/about_hero.jpg");
+  background-size: cover;
+}
+
+.we-trusted-content {
+  position: relative;
+  top: 8px;
+  z-index: -1;
+}
