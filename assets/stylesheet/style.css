@@ -721,3 +721,9 @@ footer {
 .feed-container a {
   margin-right: 8px;
 }
+
+/* #### Blog Page #### */
+.cases-hero {
+  background: url("../media/hero/cases_hero.jpg");
+  background-size: cover;
+}
