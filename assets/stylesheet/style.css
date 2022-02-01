@@ -399,6 +399,9 @@ h6 {
 .flex-24 {
   flex: 0 1 24%;
 }
+.width-90 {
+  width: 90%;
+}
 /* Header */
 .header {
   background: var(--primay-color);
@@ -726,4 +729,14 @@ footer {
 .cases-hero {
   background: url("../media/hero/cases_hero.jpg");
   background-size: cover;
+}
+.complete-case {
+  position: relative;
+  margin-right: 20px;
+}
+.case {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  padding-left: 5%;
 }
